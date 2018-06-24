@@ -1,0 +1,46 @@
+body,a {
+    color: white !important;
+}
+
+/* Позиции элементов */
+.z-ind-1 {
+    z-index: 1;
+}
+.z-ind-0 {
+    z-index: 0;
+}
+.z-ind-01 {
+    z-index: -1;
+}
+.left-0 {
+    left: 0;
+}
+/* цвет текста */
+.c-black {
+    color: #000000;
+}
+.c-red {
+    color: rgb(223, 75, 45);
+}
+
+/* Размеры шрифта сайта */
+.f-s-caption{
+    font-size: 45px;
+}
+.f-c-42 {
+    font-size: 42px;
+}
+.f-s-30 {
+    font-size: 30px;
+}
+.f-s-26 {
+    font-size: 26px;
+}
+/* размер блока в высоту экрана */
+.h-vh-all {
+    min-height: 100vh;
+}
+/* цвет фона */
+.bgr-c-white {
+    background-color: #ffffff;
+}
