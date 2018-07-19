@@ -55,7 +55,7 @@ body,a {
 }
 /* размеры блоков в высоту экрана */
 .block_seven {
-  height: 700px;
+  height: 1000px;
 }
 
 .block_eight, .block_two {
@@ -584,15 +584,45 @@ input[type=radio]:checked +.radio-group__label {
     font-size: 30px;
   } 
   .block_two {
-    height: 1000px;
+    height: 1100px;
+  }
+  .block_seven {
+    height: 800px;
   }
 }
 @media (max-width: 991.98px) {
-
+  .block_two {
+    height: 1200px;
+  }
+  .f-s-caption {
+    font-size: 25px;
+  } 
+  .f-s-30 {
+    font-size: 25px;
+  }
+  .block_seven {
+    height: 600px;
+  }
 }
 @media (max-width: 767.98px) {
-
+  .block_seven {
+    height: 400px;
+  }
+  .block_two {
+    height: 1300px;
+  }
 }
 @media (max-width: 575.98px) {
-
+  .block_two {
+    height: 1400px;
+  }
+  .f-s-caption {
+    font-size: 18px;
+  } 
+  .f-s-30 {
+    font-size: 16px;
+  }
+  .block_seven {
+    height: 300px;
+  }
 }
