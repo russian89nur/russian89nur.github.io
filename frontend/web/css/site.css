@@ -49,11 +49,17 @@ body,a {
 .f-s-26 {
     font-size: 26px;
 }
+.f-s-cap-fran {
+  font-size: 25px;
+}
 .f-s-17 {
   font-size: 17px;
 }
 .f-s-14 {
   font-size: 14px;
+}
+.f-s-text-fran {
+  font-size: 16px;
 }
 /* размеры блоков в высоту экрана */
 .block_seven {
@@ -536,7 +542,7 @@ input[type=radio]:checked +.radio-group__label {
 .txt-menu::after {
   position: absolute;
   content: "";
-  left: -10px;
+  left: 0px;
   top: 13px;
   width: 5px;
   height: 5px;
@@ -550,7 +556,7 @@ input[type=radio]:checked +.radio-group__label {
 }
 
 .h-px-1100, .img_back_tree {
-  height: 1100px;
+  height: 1250px;
 }
 /* programm */
 .card__program{
@@ -580,6 +586,48 @@ input[type=radio]:checked +.radio-group__label {
   content: '4';
 }
 
+.number_one::after, .number_two::after, .number_tree::after, .number_four::after, .number_five::after,.number_six::after, .number_seven::after, .number_eight::after, .number_nine::after {
+  position: absolute;
+  left: -70px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #df4b2d;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+.number_one::after {
+  content: '1';
+}
+.number_two::after {
+  content: '2';
+}
+.number_tree::after {
+  content: '3';
+}
+.number_four::after {
+  content: '4';
+}
+.number_five::after {
+  content: '5';
+}
+.number_six::after {
+  content: '6';
+}
+.number_seven::after {
+  content: '7';
+}
+.number_eight::after {
+  content: '8';
+}
+.number_nine::after {
+  content: '9';
+}
+
+
+
 @media (max-width: 1199.98px) {
   .f-s-caption {
     font-size: 30px;
@@ -592,6 +640,12 @@ input[type=radio]:checked +.radio-group__label {
   }
 }
 @media (max-width: 991.98px) {
+  .f-s-text-fran {
+    font-size: 15px;
+  }
+  .img_back_tree, .h-px-1100 {
+    height: 1350px;
+  }
   .block_eight {
     height: 660px;
 }
@@ -612,6 +666,9 @@ input[type=radio]:checked +.radio-group__label {
   }
 }
 @media (max-width: 767.98px) {
+  .img_back_tree, .h-px-1100 {
+    height: 1700px;
+  }
   .block_eight {
     height: 1150px;
   }
@@ -629,6 +686,15 @@ input[type=radio]:checked +.radio-group__label {
   }
 }
 @media (max-width: 575.98px) {
+  .img_back_tree, .h-px-1100 {
+    height: 1770px;
+  }
+  .f-s-cap-fran {
+    font-size: 16px;
+}
+  .f-s-text-fran {
+    font-size: 13px;
+  }
   .f-s-42 {
     font-size: 22px;
   }
