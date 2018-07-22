@@ -111,17 +111,17 @@
     </div> -->
 
 
-    <!-- <div class="col-12 px-3 block_eight position-static d-flex flex-column">
+    <div class="col-12 px-3 pb-5 position-static d-flex flex-column">
         <img src="../../../common/img/background/2.jpg" class="substrate-white bgr-c-white position-absolute w-100 h-100 left-0">
         <span class="pt-5 mt-5 f-s-caption font-weight-bold text-center z-ind-1 contacts-one">Оставьте свои контакты и узнайте о преимуществах заведений каждого типа!</span>
-        <div class="col-6 d-flex flex-column mx-auto">
+        <div class="col-lg-6 col-md-8 col-12 d-flex flex-column mx-auto">
             <input type="text" class="form-control mt-5 contact-info-one">
             <input type="text" class="form-control mt-3 contact-info-two">
             <input type="text" class="form-control mt-3 contact-info-tree">
             <input type="text" class="form-control mt-3 contact-info-four">
             <button type="button" class="btn btn-outline-primary mt-3 contact-button">Получить консультацию</button>
         </div>
-    </div> -->
+    </div>
 
     <div class="col-12 px-3 block_one position-static d-flex flex-column">
         <div class="substrate-white bgr-c-white position-absolute w-100 block_one left-0"></div>
@@ -129,32 +129,30 @@
             <span class="c-black">МЕНЮ</span><span class="c-red pl-2">BURGER HOUSE</span>
         </div>
         <div class="record_wrap w-100 row z-ind-1 my-5">
-            <div class="col-xl-auto col-lg-4 text-center px-0">
+            <div class="col-xl-auto col-md-4 text-center px-0 pt-4 pt-md-0">
                 <input type="radio" id="radio-1" name="radio-group" data-number="0" class="radio-group__input" checked>
                 <label for="radio-1" class="radio-group__label f-s-14 font-weight-bold text-center">Бургеры</label>
             </div>
-            <div class="col-xl-auto col-lg-4 text-center px-0">
+            <div class="col-xl-auto col-md-4 text-center px-0 pt-4 pt-md-0">
                 <input type="radio" id="radio-2" name="radio-group" data-number="1" class="radio-group__input">
                 <label for="radio-2" class="radio-group__label f-s-14 font-weight-bold text-center">Роллы и Хот-доги</label>
             </div>
-            <div class="col-xl-auto col-lg-4 text-center px-0">
+            <div class="col-xl-auto col-md-4 text-center px-0 pt-4 pt-md-0">
                 <input type="radio" id="radio-3" name="radio-group" data-number="2" class="radio-group__input">
                 <label for="radio-3" class="radio-group__label f-s-14 font-weight-bold text-center">Закуски и добавки</label>
             </div>
-            <div class="col-xl-auto col-lg-6 text-right pr-5 pr-xl-0 pt-4 pt-xl-0 px-0">
+            <div class="col-xl-auto col-md-6 text-center text-md-right pr-md-5 pt-4 pr-xl-0 pt-4 pt-xl-0 px-0">
                 <input type="radio" id="radio-4" name="radio-group" data-number="3" class="radio-group__input">
                 <label for="radio-4" class="radio-group__label f-s-14 font-weight-bold text-center">Напитки и десерты</label>
             </div>
-            <div class="col-xl-auto col-lg-6 pl-5 pl-xl-0 pt-4 pt-xl-0 px-0">
+            <div class="col-xl-auto col-md-6 pl-md-5 text-center text-md-left pl-xl-0 pt-4 pt-xl-0 px-0">
                 <input type="radio" id="radio-5" name="radio-group" data-number="4" class="radio-group__input">
                 <label for="radio-5" class="radio-group__label f-s-14 font-weight-bold text-center">Наборы</label>
             </div>
-            <!-- <input type="radio" id="radio-4" name="radio-group" data-number="3" class="radio-group__input">
-            <label for="radio-4" class="radio-group__label f-s-14 font-weight-bold text-center">Напитки и десерты</label> -->
         </div>
         <div class="menu-burger">
             <div class="row z-ind-1 font-weight-bold">
-                <div class="col-4 d-flex flex-column px-4">
+                <div class="col-lg-4 col-md-6 col-12 d-flex flex-column px-4">
                     <span class="c-black f-s-26 pb-4 text-center">Говядина</span>
                     <div class="d-flex flex-row pt-2">
                         <span class="c-black f-s-17 txt-menu position-relative">Гамбургер</span>
@@ -203,7 +201,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 d-flex flex-column font-weight-bold border-left border-right px-4">
+                <div class="col-lg-4 col-md-6 col-12 pt-5 pt-md-0 d-flex flex-column font-weight-bold border-left border-right px-4">
                     <span class="c-black f-s-26 pb-4 text-center">Курица</span>
                     <div class="d-flex flex-row pt-2">
                         <span class="c-black f-s-17 txt-menu position-relative">Стандарт бургер</span>
@@ -227,7 +225,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 d-flex flex-column px-4">
+                <div class="col-lg-4 col-12 d-flex flex-column px-4 pt-5 pt-lg-0">
                     <span class="c-black font-weight-bold f-s-26 pb-4 text-center">Рыба</span>
                     <div class="d-flex flex-row pt-2">
                         <span class="c-black f-s-17 txt-menu position-relative">Фиш бургер</span>
@@ -238,66 +236,120 @@
         </div>
     </div>
 
-    <!-- <div class="col-12 px-3 block_eight position-static d-flex flex-column">
+    <div class="col-12 px-3 block_eight position-static d-flex flex-column">
             <div class="substrate-white bgr-c-white position-absolute w-100 block_eight left-0"></div>
-            <span class="pt-5 f-s-caption font-weight-bold text-center z-ind-1 c-black">ПРИМЕРНЫЕ ИНВЕСТИЦИИ в открытие одного заведения</span>
+            <span class="pt-5 f-s-caption font-weight-bold text-center z-ind-1 c-black">ДВА ПАКЕТА ФРАНШИЗЫ НА ВЫБОР</span>
             <div class="row px-3 pt-4">
-                <div class='col-4 bgr-c-black bor-bot-orange'>
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Подходит для</span></div>
+                </div>
+                <div class='col-md-4 col-6 c-black bor-bot-orange'>
+                    <div class="py-3"><span>фудкорт, мини- бургерная, кафе</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span>фудкорт, мини-бургерная, кафе</span></div>
+                </div>
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Инвестиции, ₽</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
+                    <div class="py-3"><span>от 450 000</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span>от 450 000</span></div>
+                </div>
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Паушальный взнос, ₽</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
+                    <div class="py-3"><span>200 000</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span>200 000</span></div>
+                </div>
+
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Роялти со 2-го месяца</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
+                    <div class="py-3"><span>3%</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span>3%</span></div>
+                </div>
+
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>ERP-система</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
+                    <div class="py-3"><span></span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span></span></div>
+                </div>
+
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Служба доставки</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
+                    <div class="py-3"><span></span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span></span></div>
+                </div>
+
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Эксклюзивное право развития в городе</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
+                    <div class="py-3"><span>-</span></div>
+                </div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
+                    <div class="py-3"><span></span></div>
+                </div>
+
+
+                <div class='col-md-4 col-12 bgr-c-black bor-bot-orange'>
                     <div class="py-3"><span>Выезд специалиста для запуска бургерной</span></div>
                 </div>
-                <div class='col-4 c-black bor-bot-orange'>
-                    <div class="py-3"><span>фудкорт, мини- бургерная, кафе</span></div>
-                    <div class="py-3"><span>от 450 000</span></div>
-                    <div class="py-3"><span>200 000</span></div>
-                    <div class="py-3"><span>3%</span></div>
-                    <div class="py-3"><span></span></div>
-                    <div class="py-3"><span></span></div>
-                    <div class="py-3"><span>-</span></div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black'>
                     <div class="py-3"><span>-</span></div>
                 </div>
-                <div class='col-4 c-black bor-bot-orange'>
-                    <div class="py-3"><span>фудкорт, мини-бургерная, кафе</span></div>
-                    <div class="py-3"><span>от 450 000</span></div>
-                    <div class="py-3"><span>200 000</span></div>
-                    <div class="py-3"><span>3%</span></div>
-                    <div class="py-3"><span></span></div>
-                    <div class="py-3"><span></span></div>
-                    <div class="py-3"><span></span></div>
+                <div class='col-md-4 col-6 bor-bot-orange c-black bor-left-orange'>
                     <div class="py-3"><span></span></div>
                 </div>
             </div>
-      </div> -->
+      </div>
 
     
     
     
     
     
-    
-    <!-- <div class="col-12 block_eight position-static d-flex flex-column">
+    <div class="col-12 px-3 py-5 position-static d-flex flex-column">
         <img src="../../../common/img/background/2.jpg" class="substrate-white bgr-c-white position-absolute w-100 h-100 left-0">
         <span class="pt-5 mt-5 f-s-caption font-weight-bold text-center z-ind-1 contacts-one">Оставьте свои контакты, и мы подберём оптимальный для вас пакет франшизы бургерной!</span>
-            <div class="col-6 d-flex flex-column mx-auto">
-                <input type="text" class="form-control mt-5 contact-info-one">
-                <input type="text" class="form-control mt-3 contact-info-two">
-                <input type="text" class="form-control mt-3 contact-info-tree">
-                <input type="text" class="form-control mt-3 contact-info-four">
-                <button type="button" class="btn btn-outline-primary mt-3 contact-button">Получить консультацию</button>
-            </div>
-    </div> -->
+        <div class="col-lg-6 col-md-8 col-12 d-flex flex-column mx-auto">
+            <input type="text" class="form-control mt-5 contact-info-one">
+            <input type="text" class="form-control mt-3 contact-info-two">
+            <input type="text" class="form-control mt-3 contact-info-tree">
+            <input type="text" class="form-control mt-3 contact-info-four">
+            <button type="button" class="btn btn-outline-primary mt-3 contact-button">Получить консультацию</button>
+        </div>
+    </div>
 
     <div class="col-12 block_six position-static d-flex flex-column">
         <div class="substrate-white bgr-c-white position-absolute w-100 block_six left-0"></div>
-        <span class="pt-5 f-s-caption font-weight-bold text-center z-ind-1 c-black">ДВА ПАКЕТА ФРАНШИЗЫ НА ВЫБОР</span>
-        <div class="row pt-4 c-black">
-            <div class='col-6 d-flex flex-column'>
+        <span class="pt-5 f-s-caption font-weight-bold text-center z-ind-1 c-black">ПРИМЕРНЫЕ ИНВЕСТИЦИИ</span>
+        <span class="f-s-caption font-weight-bold text-center z-ind-1 c-black">открытие одного заведения</span>
+        <div class="row pt-4 c-black d-flex">
+            <div class='col-md-6 col-12 d-flex flex-column order-md-1 order-2 pt-4 pt-md-0'>
                 <span class="font-weight-bold">Для помещений 30-50 кв.м. (кафе, фудкорт, мини-бургерная)</span>
                 <div class="row px-3">
                     <span class="pt-3">Основное оборудование</span>
@@ -328,13 +380,13 @@
                     <span class="pt-3 ml-auto">450 000 ₽</span>
                 </div>
             </div>
-            <div class='col-6'>
+            <div class='col-md-6 col-12 order-md-2 order-1'>
                 <img src="../../../common/img/background/2.jpg" alt="" class="mw-100 mh-100">
             </div>
         </div>
     </div>
 
-    <!-- <div class="col-12 d-flex position-static c-black pb-5">
+    <div class="col-12 d-flex position-static c-black pb-5">
         <div class="substrate-white bgr-c-white position-absolute w-100 h-100 left-0"></div>
         <div class="col-10 d-flex flex-column">
             <span class="font-weight-bold">ЧТО ВХОДИТ ВО ФРАНШИЗУ</span>
@@ -394,9 +446,9 @@
             <span class="txt-menu position-relative">дадим пошаговую инструкцию по открытию;</span>
             <span class="txt-menu position-relative">предоставим онлайн-поддержку по любым вопросам.</span>
         </div>
-    </div> -->
+    </div>
     
-    <!-- <div class="col-12 d-flex position-static h-px-1100">
+    <div class="col-12 d-flex position-static h-px-1100">
         <img src="../../../common/img/background/3.jpeg" class="position-absolute left-0 w-100 z-ind-01 h-px-1100" alt=""> 
         <div class=" w-100 position-absolute left-0 img_back_tree"></div>
         <div class='col-12 d-flex flex-column'>
@@ -432,9 +484,9 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <!-- <div class="col-12 d-flex flex-column h-100 position-static pb-5 c-black">
+    <div class="col-12 d-flex flex-column h-100 position-static pb-5 c-black">
         <span class='f-s-42 pt-5 font-weight-bold'>Слово руководителя</span>
         <span class='f-s-14 pt-3 w-75'>С нами вам не придётся изобретать велосипед. Выбрав Burger House, вы получите готовую рабочую бизнес-модель, которая принесёт прибыль. Вам останется лишь соблюдать инструкции. </span>
         <span class='f-s-14 pt-3 w-75'>Мы не гарантируем 100% успех, потому что он зависит от очень многих факторов, включая ваши навыки руководителя. Но мы готовы помогать на каждом этапе открытия и далее со всем необходимым, чтобы минимизировать риски и совместными силами добиться стабильно высокой отдачи.</span>
@@ -514,12 +566,11 @@
             </div>
         </div>
 
-    </div> -->
-
-    <div class="col-12 h-vh-all position-static d-flex flex-column">
+    </div>
+    <div class="col-12 px-3 pb-5 position-static d-flex flex-column">
         <img src="../../../common/img/background/2.jpg" class="substrate-white bgr-c-white position-absolute w-100 h-100 left-0">
         <span class="pt-5 mt-5 f-s-caption font-weight-bold text-center z-ind-1 contacts-one">Оставьте заявку и начните зарабатывать ежемесячно от 150 000₽ уже через 1,5 месяца!</span>
-        <div class="col-6 d-flex flex-column mx-auto">
+        <div class="col-lg-6 col-md-8 col-12 d-flex flex-column mx-auto">
             <input type="text" class="form-control mt-5 contact-info-one">
             <input type="text" class="form-control mt-3 contact-info-two">
             <input type="text" class="form-control mt-3 contact-info-tree">
@@ -527,6 +578,7 @@
             <button type="button" class="btn btn-outline-primary mt-3 contact-button">Получить консультацию</button>
         </div>
     </div>
+
 </div>
 
 <?php include '../main/footer.php'; ?>
