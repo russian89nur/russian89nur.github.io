@@ -1,0 +1,44 @@
+:root {
+    --transition-opacity-time: .3s;
+
+    --text-color-default: #313131;
+    --text-color-logo: #595653;
+    --color-white: #fff;
+    --color-red: #F54932;
+    --color-blue: #3057A2;
+
+    --background-beige: #E9DED4;
+
+    --button-font-size: 1rem;
+    --button-width-desktop: 263px;
+    --button-heigth-desktop: 72px;
+    --button-padding-desktop: 0 20px;
+
+    --button-more-about-tournament-text-color: #1F1F1F;
+    --button-more-about-tournament-border-color: #1F1F1F;
+    --button-more-about-tournament-background-color: #1F1F1F;
+
+    --button-more-about-tournament-text-color-hover: #fff;
+
+    --button-support-chess-idea-text-color: #fff;
+    --button-support-chess-idea-border-color: #1F1F1F;
+    --button-support-chess-idea-background-color: #1F1F1F;
+
+    --button-support-chess-idea-text-color-hover: #1F1F1F;
+    --button-support-chess-idea-border-color-hover: #FBCE51;
+    --button-support-chess-idea-background-color-hover: #FBCE51;
+
+    --slider-button-bcg-default: #313131;
+    --slider-button-bcg-hover: #FBCE51;
+    --slider-button-bcg-disabled: #D6D6D6;
+
+    --swiper-navigation-size: 17px !important;
+
+    --button-card-color-default: #3057A2;
+    --button-card-border-default: #3057A2;
+    --button-card-text-hover-default: #fff;
+    --button-card-background-hover-default: #3057A2;
+}
+
+
+
